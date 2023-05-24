@@ -1,0 +1,70 @@
+body, div{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+    /* border: 1px solid #f43131; */
+    margin: 1px;
+    padding: 1px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#navbar-pinterest{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.item-menu{
+    height: 48px;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 0px 10px;
+    margin: 0px 3px;
+}
+.iconos-menu{
+    height: 48px;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 0px 8px;
+}
+.item-menu:active{
+    background-color: black;
+    color: white;
+}
+#finder{
+    width: 60%;
+    padding: 0px 24px;
+    margin: 10px;
+    border: 1px solid #e9e9e9;
+    background-color: #e9e9e9;
+    border-radius: 25px;
+    height: 48px;
+}
+.icon-menu{
+    padding: 3px 10px;
+}
+/* La .card-image tiene un :hover para mostrar los botones */
+
+@media (max-width: 1199.98px) { 
+}
+
+/* Pantallas medianas (tablets de menos de 992px) */
+@media (max-width: 991.98px) { 
+}
+
+/* //Pantallas pequeñas (móviles en landscape de menos de 768px) */
+@media (max-width: 767.98px) {
+}
+
+/*Pantallas muy pequeñas (móviles en portrait de menos de 576px) */
+@media (max-width: 575.98px) {
+}
