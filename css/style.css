@@ -78,9 +78,20 @@ body, div{
 }
 .post{
     margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
 }
 #profile-img>img{
     border-radius: 50%;
+}
+.card-image>img{
+    padding: 2px;
+    margin: 2px;
+    width: 252px;
 }
 /* La .card-image tiene un :hover para mostrar los botones */
 
