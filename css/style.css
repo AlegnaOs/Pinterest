@@ -92,6 +92,7 @@ body, div{
     padding: 2px;
     margin: 2px;
     width: 252px;
+    border-radius: 20px;
 }
 /* La .card-image tiene un :hover para mostrar los botones */
 
